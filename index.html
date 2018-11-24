@@ -11,12 +11,26 @@ body {
 		max-width: 100%;
 		vertical-align: top;
 	}
+	img#responsive{
+		display: none;
+	}
+	
+	@media screen and (max-width: 768px){
+		img#responsive{
+			display: block;
+		}
+	}
 
 </style>
 </head>
 <body>
 
+
 <img src="images/nueva-version.jpg">
+
+<img src="images/invie-responsive.png" id="responsive">
+
+
 
 </body>
 </html>
